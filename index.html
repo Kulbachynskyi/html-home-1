@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Portfolio</title>
+</head>
+<body>
+<header>
+	<h1>My Portfolio</h1>
+	<address>
+		<div>Citi: Lviv</div>
+		<div>Phone: +380967511303</div>
+	</address>
+</header>
+<main>
+<div>
+	<aside>	
+		<div>
+			<form action="auth.php" method="post">
+				<input type="text" name="name" id="name" placeholder="Write name">
+				<input type="password" name="pswrd" id="pswrd" placeholder="Write password">
+				<input type="submit" id="submit" value="Enter">
+				<input type="reset" value="Reset">
+			</form>
+			<h2>My contact</h2>
+		</div>
+		<div>
+			<h3 style="color: blue">My contact in social network</h3>
+			<ul>
+				<li><a href="https://vk.com/feed" target="_blank" title="Go to VK">VK</a></li>
+				<li><a href="https://uk-ua.facebook.com/" target="_blank" title="Go to Facebook">Facebook</a></li>
+				<li><a href="https://ru.linkedin.com/" target="_blank" title="Go to LinkedIn">LinkedIn</a></li>	
+			</ul>
+		</div>
+	</aside>
+	<nav>
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">Portfolio</a></li>
+			<li><a href="#">Blog</a></li>
+		</ul>
+	</nav>
+</div>
+<div>	
+	<section>	
+		<div>
+			<h2>About me</h2>
+		<div>
+			<img id="my-ava" src="http://lorempixel.com/200/200/" alt=" My avatar" title="Name Lastname">
+		</div>
+			<h3>My CV</h3>
+			<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,</p>
+		</div>
+	</section>
+	<section>	
+		<div>
+			<h2>My statistic</h2>
+			<table border="1" cellspacing="2" cellpadding="10">
+				<tr bgcolor="#cacaca">
+					<th>View of project</th>
+					<th>Made</th>
+					<th>Bought</th>
+				</tr>
+				<tr>
+					<td>Static</td>
+					<td>86</td>
+					<td>90</td>
+				</tr>
+				<tr>
+					<td>Adaptation</td>
+					<td>40</td>
+					<td>36</td>
+				</tr>
+			</table>
+		</div>
+    </section>
+	<section>
+		<div>
+			<h2>Order</h2>
+			<form action="order.php" method="post">
+		<div>
+			<label for="client_name">
+		    	<span>Name</span>
+			</label>
+				<input id="client_name" type="text" name="client_name" placeholder="Enter your name">
+		</div>
+		<div>
+			<label for="client_email">
+				<span>e-mail</span>
+			</label>	
+				<input id="client_email" type="text" name="client_email" placeholder="Enter your email">
+		</div>
+		<div>
+			<label>
+				<span>Change gender</span>	
+					<input type="radio" name="gender" value="Male"> 
+				<span>Male</span>
+					<input type="radio" name="gender" value="Female"> 
+				<span>Female</span>
+			</label>
+		</div>
+		<div>
+			<label>
+				<span>Advanced Features</span>
+					<input type="checkbox" name="adaptiv" value="adaptiv">
+				<span>Adaptiv</span>	
+					<input type="checkbox" name="hosting" value="hosting" checked="">
+				<span>Hosting</span>
+					<input type="checkbox" name="support" value="support">
+				<span>Support</span>
+					<input type="checkbox" name="admin" value="admin">
+				<span>Admin</span>
+			</label>
+		</div>
+		<div>
+			<label>
+				<span>Type of site</span>
+				<select name="type" multiple="">
+					<option value="eshop">Internet Shop</option>
+					<option value="lending">Lending</option>
+					<option value="card">Portfolio</option>
+				</select>
+			</label>
+		</div>
+		<div>
+			<label>
+				<spdn>Sketch</spdn>
+            	<input type="file" name="file">        
+			</label>
+		</div>
+		<div>
+			<input type="hidden" name="time" value="time_count">
+		</div>
+		<div>
+			<lable>
+			<span>Comment</span>
+			<textarea name="comment" cols="30" rows="10" maxlength="100"></textarea>
+			</lable>
+		</div>
+		<div>
+			<input type="reset" value="Reset">
+			<button name="submit">Send</button>
+		</div>	
+			</form>
+		</div>
+	</section>
+	<div class="left-col">
+	</div>
+	<div class="right-col">
+	</div>
+</div>	
+</main>
+	<footer>
+		<div>It is my site. Don`t copy</div>
+	</footer>
+</body>
+</html>
